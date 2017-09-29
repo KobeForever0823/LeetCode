@@ -34,6 +34,10 @@ trim
 find restaurant:
 To initialize a map we need two object classes. Map<String, Integer>
 
+# 9.28
+Palindrome:
+longest:  build a map <char, int> to store data. if the value % 2 == 0 add them to length. Or add value - 1 to length. Of course, there'll be only one chance that we can allow an odd number into length(put it in the middle)
+
 
 
 
