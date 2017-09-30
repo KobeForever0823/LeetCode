@@ -38,6 +38,7 @@ To initialize a map we need two object classes. Map<String, Integer>
 Palindrome:
 longest:  build a map <char, int> to store data. if the value % 2 == 0 add them to length. Or add value - 1 to length. Of course, there'll be only one chance that we can allow an odd number into length(put it in the middle)
 
-
+# 9.29
+Simplify path: Using stringbuilder than string to save more time. (Modifying string needs to create new object, stringbuilder doesn't) 
 
 
