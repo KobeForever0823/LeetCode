@@ -39,6 +39,22 @@ Palindrome:
 longest:  build a map <char, int> to store data. if the value % 2 == 0 add them to length. Or add value - 1 to length. Of course, there'll be only one chance that we can allow an odd number into length(put it in the middle)
 
 # 9.29
-Simplify path: Using stringbuilder than string to save more time. (Modifying string needs to create new object, stringbuilder doesn't) 
+Simplify path: Using stringbuilder than string to save more time. (Modifying string needs to create new object, stringbuilder doesn't need.
+
+# 10.2
+DFS: recursive
+
+# 10.24
+LinkedList: removeNthFromEnd
+Create two nodes, one moves faster to the end, then the other one will move to the nth from end.
+delete node:
+a -> b -> c
+delete b: 
+NewNode tmp = a->next
+a->next = tmp->next (a points to c)
+delete b
+
+# 11.21
+Backtrack: 
 
 
