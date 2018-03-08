@@ -55,6 +55,13 @@ a->next = tmp->next (a points to c)
 delete b
 
 # 11.21
-Backtrack: 
+Backtrack:
+
+# 01.09
+word break: dp
+
+# 01.11
+word ladder: list to set (or won't pass all the test cases)
+
 
 
